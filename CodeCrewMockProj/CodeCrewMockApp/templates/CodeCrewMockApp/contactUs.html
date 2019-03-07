@@ -1,0 +1,16 @@
+{% extends 'CodeCrewMockApp/index.html' %}
+
+{% block header %}
+<h1>Contact Us</h1>
+{% endblock header %}
+
+
+{% block content %}
+
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button>Submit</button>
+</form>
+{% endblock content %}
+

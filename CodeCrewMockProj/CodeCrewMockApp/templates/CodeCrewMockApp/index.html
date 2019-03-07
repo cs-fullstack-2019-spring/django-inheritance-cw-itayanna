@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="{% url 'index' %}"><img src="../../../../codeLogo.png" height="91" width="551"/></a>
+<nav>
+    <a href="{% url 'index' %}">Home</a>
+    <a href="{% url 'gallery' %}">Gallery</a>
+    <a href="{% url 'contactUs' %}">Contact Us</a>
+    <a href="{% url 'resources' %}">Resources</a>
+    <a href="{% url 'aboutUs' %}">About Us</a>
+</nav>
+
+<header>
+{% block header %}
+    <h1>Index</h1>
+{% endblock header %}
+</header>
+<div>
+{% block content %}
+    <p>Code School seeks to close the software developer gap in the local workforce.
+        This event is for potential employer partners, mentors, and community members to learn more about who we are, what we do, and how to get involved.</p>
+{% endblock content %}
+</div>
+<div>
+{% block sidebar %}
+{% endblock sidebar %}
+</div>
+<footer>
+    {% block footer %}
+    {% endblock footer %}
+</footer>
+
+</div>
+
+</body>
+</html>
