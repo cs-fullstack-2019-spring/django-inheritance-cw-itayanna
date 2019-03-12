@@ -9,3 +9,5 @@ The gallery only needs to have 4 pictures.
 The contact page should have name and email. A secret page should be accessible to see all the contact's names and email addresses.
 
 All pages should have the navigation bar at the top. There should be a sidebar area for every page except for the comments page. Put CodeCrew's current footer in that area.
+<hr>
+1 point. None of the pictures worked because there's no static folder and you don't have a secret page.
